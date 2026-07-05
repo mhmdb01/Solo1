@@ -1,0 +1,111 @@
+.sign-category-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.sign-category-card {
+  display: block;
+  background: var(--color-ink);
+  color: var(--color-paper);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  border-inline-start: 6px solid var(--card-accent, var(--color-accent));
+}
+
+.sign-category-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: var(--space-2);
+}
+
+.sign-category-card p {
+  margin: 0 0 var(--space-2);
+  opacity: 0.75;
+  font-size: 0.95rem;
+}
+
+.sign-category-count {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--card-accent, var(--color-accent));
+  font-weight: 700;
+}
+
+.sign-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+.sign-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: var(--space-2);
+  text-align: center;
+}
+
+.sign-grid-item .sign-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.sign-grid-item span {
+  font-size: 0.75rem;
+  line-height: 1.3;
+  color: var(--color-ink);
+}
+
+.sign-quiz-cta {
+  display: block;
+  text-align: center;
+  background: var(--color-go);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-4);
+}
+
+.sign-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+}
+
+.sign-detail .sign-icon {
+  width: 160px;
+  height: 160px;
+}
+
+.sign-detail h2 {
+  font-size: 1.4rem;
+}
+
+.sign-detail .sign-detail-fr {
+  color: var(--color-asphalt);
+  font-family: var(--font-body);
+  direction: ltr;
+}
+
+.sign-detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  justify-content: center;
+}
+
+.sign-detail-tag {
+  background: var(--color-paper);
+  border: 1px solid var(--color-asphalt);
+  border-radius: 999px;
+  padding: 2px 12px;
+  font-size: 0.8rem;
+}

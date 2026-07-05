@@ -1,0 +1,4 @@
+[
+  { "id": "danger", "name_ar": "الخطر", "name_fr": "Danger", "accent": "var(--color-stop)" },
+  { "id": "priorite", "name_ar": "نظام الأولوية", "name_fr": "Priorité", "accent": "var(--color-accent)" }
+]
