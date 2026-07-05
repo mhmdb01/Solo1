@@ -1,0 +1,57 @@
+:root {
+  --color-ink: #23252b;
+  --color-paper: #f3f4ef;
+  --color-asphalt: #3a3d46;
+  --color-accent: #f7c23e;
+  --color-go: #2fa96b;
+  --color-stop: #e2444d;
+  --color-player-blue: #3b82f6;
+
+  --font-heading: 'Changa', sans-serif;
+  --font-body: 'Cairo', sans-serif;
+
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
