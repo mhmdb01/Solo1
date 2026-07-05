@@ -1,0 +1,20 @@
+[
+  {
+    "id": "s_l1_001",
+    "level": 1,
+    "layout": { "type": "cross", "flags": [] },
+    "signs": [{ "signId": "priorite_cedez", "approach": "S" }],
+    "lights": {},
+    "police": false,
+    "pedestrian": false,
+    "cars": [
+      { "id": "blue", "color_ar": "الزرقاء", "approach": "S", "intent": "straight", "isPlayer": true, "special": null },
+      { "id": "red", "color_ar": "الحمراء", "approach": "E", "intent": "straight", "isPlayer": false, "special": null }
+    ],
+    "question_ar": "ما هو ترتيب المرور؟",
+    "correctOrder": ["red", "blue"],
+    "explanation_ar": "السيارة الزرقاء أمامها إشارة أفسح الطريق، لذا تمر الحمراء أولاً.",
+    "source": "demo",
+    "validated": true
+  }
+]

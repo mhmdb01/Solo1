@@ -1,0 +1,18 @@
+[
+  {
+    "id": "danger_virage_droite",
+    "category": "danger",
+    "name_ar": "خطر منعرج إلى اليمين",
+    "name_fr": "Virage à droite",
+    "svg": "SignVirageDroite",
+    "tags": ["منعرج", "خطر"]
+  },
+  {
+    "id": "priorite_cedez",
+    "category": "priorite",
+    "name_ar": "أفسح الطريق",
+    "name_fr": "Cédez le passage",
+    "svg": "SignCedezPassage",
+    "tags": ["أولوية", "أفسح"]
+  }
+]
